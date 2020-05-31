@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#67ad3b"
+
+    tools:context=".MenuMain">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-26dp"
+        tools:layout_editor_absoluteY="230dp">
+
+        <Button
+            android:id="@+id/buttoninfo"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="99dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/button7"
+            android:text="Info"
+            android:textColor="#ffffff"
+            android:textSize="9dp" />
+
+        <Button
+            android:id="@+id/buttonany"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/button5"
+            android:text="Any"
+            android:textSize="8dp"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/buttonmap"
+            android:layout_width="106dp"
+            android:layout_height="103dp"
+            android:layout_marginLeft="78dp"
+            android:layout_marginTop="81dp"
+            android:background="@drawable/button6"
+            android:text="Map"
+            android:textColor="#ffffff"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/buttonSet"
+            android:layout_width="81dp"
+            android:layout_height="81dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/button4"
+
+            android:text="Settings"
+            android:textColor="#ffffff"
+            android:textSize="7dp" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

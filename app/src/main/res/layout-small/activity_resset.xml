@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".RessetActivity"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:layout_editor_absoluteX="307dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="190dp"
+            android:textAlignment="center"
+            android:text="Hello,dear user! Today I want to show you my booty"
+            android:textColor="#67ad3b"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/editTextRes"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="50dp"
+            android:hint="Email"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:background="@drawable/fieds1"
+            android:textColor="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttonRes"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonq"
+            android:text="Send email"
+            android:textColor="#ffffff"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="140dp"
+            android:gravity="center"
+            android:text="Password settings"
+            android:textColor="#67ad3b"
+            android:textSize="30dp" />
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="140dp"
+            app:srcCompat="@drawable/ecopunto" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
