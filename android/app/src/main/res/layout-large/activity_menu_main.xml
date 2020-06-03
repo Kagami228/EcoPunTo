@@ -12,8 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="-26dp"
-        tools:layout_editor_absoluteY="230dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-47dp">
 
         <ImageView
             android:id="@+id/imageView2"
@@ -27,8 +27,8 @@
 
         <Button
             android:id="@+id/buttoninfo"
-            android:layout_width="220dp"
-            android:layout_height="220dp"
+            android:layout_width="150dp"
+            android:layout_height="135dp"
             android:layout_marginLeft="338dp"
             android:layout_marginTop="415dp"
             android:background="@drawable/button7"
@@ -39,18 +39,19 @@
             android:id="@+id/buttonany"
             android:layout_width="170dp"
             android:layout_height="170dp"
-            android:layout_marginLeft="170dp"
-            android:layout_marginTop="520dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="450dp"
             android:background="@drawable/button5"
             android:text="Any"
             android:textColor="#ffffff" />
 
         <Button
             android:id="@+id/buttonmap"
-            android:layout_width="305dp"
-            android:layout_height="305dp"
+            android:layout_width="213dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/buttoninfo"
             android:layout_marginLeft="269dp"
-            android:layout_marginTop="640dp"
+            android:layout_marginTop="50dp"
             android:background="@drawable/button6"
             android:text="Map"
             android:textColor="#ffffff"
@@ -58,13 +59,14 @@
 
         <Button
             android:id="@+id/buttonSet"
-            android:layout_width="223dp"
-            android:layout_height="223dp"
+            android:layout_width="225dp"
+            android:layout_height="173dp"
+            android:layout_below="@+id/buttonany"
             android:layout_marginLeft="38dp"
-            android:layout_marginTop="680dp"
-            android:background="@drawable/button4"
+            android:layout_marginTop="7dp"
 
-            android:text="Settings"
+            android:background="@drawable/button4"
+            android:text="Notification"
             android:textColor="#ffffff" />
 
     </RelativeLayout>

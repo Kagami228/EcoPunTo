@@ -11,7 +11,7 @@
         android:id="@+id/buttoninfo"
         android:layout_width="115dp"
         android:layout_height="115dp"
-        android:layout_marginLeft="370dp"
+        android:layout_marginLeft="570dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/button7"
         android:text="Info"
@@ -29,10 +29,11 @@
 
     <Button
         android:id="@+id/buttonmap"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
-        android:layout_marginLeft="397dp"
-        android:layout_marginTop="184dp"
+        android:layout_width="190dp"
+        android:layout_height="169dp"
+        android:layout_below="@+id/buttoninfo"
+        android:layout_marginLeft="550dp"
+        android:layout_marginTop="117dp"
         android:background="@drawable/button6"
         android:text="Map"
         android:textColor="#ffffff"
@@ -43,24 +44,19 @@
         android:layout_width="112dp"
         android:layout_height="112dp"
         android:layout_marginLeft="96dp"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="270dp"
         android:background="@drawable/button4"
 
-        android:text="Settings"
+        android:text="Notification"
         android:textColor="#ffffff" />
 
-    <LinearLayout
+    <ImageView
+        android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="396dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="320dp"
-            android:layout_height="320dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/ecopunto" />
 
-            app:srcCompat="@drawable/ecopunto" />
-    </LinearLayout>
 </RelativeLayout>

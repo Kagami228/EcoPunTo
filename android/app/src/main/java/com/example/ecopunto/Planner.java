@@ -6,6 +6,8 @@ import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.TimePicker;
 import android.widget.Toast;
@@ -21,13 +23,14 @@ public class Planner extends AppCompatActivity implements View.OnClickListener{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Window w = getWindow();
+        w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_planner);
 
         // Set Onclick Listener.
         findViewById(R.id.button_planner).setOnClickListener(this);
         findViewById(R.id.button_cancel).setOnClickListener(this);
     }
-
     @Override
     public void onClick(View view) {
         EditText editText = findViewById(R.id.editText);
@@ -55,7 +58,6 @@ public class Planner extends AppCompatActivity implements View.OnClickListener{
                 startTime.set(Calendar.MINUTE, minute);
                 startTime.set(Calendar.SECOND, 0);
                 long alarmStartTime = startTime.getTimeInMillis();
-
                 // Set alarm.
                 // set(type, milliseconds, intent)
                 alarm.set(AlarmManager.RTC_WAKEUP, alarmStartTime, alarmIntent);

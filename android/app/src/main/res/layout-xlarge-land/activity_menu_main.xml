@@ -11,7 +11,7 @@
         android:id="@+id/buttoninfo"
         android:layout_width="165dp"
         android:layout_height="165dp"
-        android:layout_marginLeft="670dp"
+        android:layout_marginLeft="870dp"
         android:layout_marginTop="35dp"
         android:background="@drawable/button7"
         android:text="Info"
@@ -29,10 +29,12 @@
 
     <Button
         android:id="@+id/buttonmap"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginLeft="742dp"
-        android:layout_marginTop="324dp"
+        android:layout_width="320dp"
+        android:layout_height="257dp"
+        android:layout_marginStart="486dp"
+        android:layout_marginLeft="852dp"
+        android:layout_marginTop="554dp"
+        android:layout_toEndOf="@+id/buttonSet"
         android:background="@drawable/button6"
         android:text="Map"
         android:textColor="#ffffff"
@@ -43,25 +45,20 @@
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:layout_marginLeft="196dp"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="500dp"
         android:background="@drawable/button4"
 
-        android:text="Settings"
+        android:text="Notification"
         android:textColor="#ffffff" />
 
-    <LinearLayout
+    <ImageView
+        android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="620dp"
-            android:layout_height="620dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
 
 
-            app:srcCompat="@drawable/ecopunto" />
-    </LinearLayout>
+        app:srcCompat="@drawable/ecopunto" />
+
 </RelativeLayout>

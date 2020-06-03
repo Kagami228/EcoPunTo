@@ -10,6 +10,8 @@ import android.graphics.Color;
 import android.location.Location;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Toast;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
@@ -132,6 +134,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         ///////
 
         super.onCreate(savedInstanceState);
+        Window w = getWindow();
+        w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_maps);
         mFirestore = FirebaseFirestore.getInstance();
         docSnippets = new Data(mFirestore);

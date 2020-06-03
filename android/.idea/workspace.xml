@@ -7,7 +7,7 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cfa5a77-2a7a-48f1-b74e-2f8fa941d391" name="Default Changelist" comment="" />
@@ -17,7 +17,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_4_API_26" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="4.65_720p_Galaxy_Nexus_API_26" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -33,37 +33,40 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="layoutResourceFile" />
         <option value="resourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1cIsVdgx7MMmr7dBSO7yOLISxt9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_4_API_26" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-05-30T18:09:32.549Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="4.65_720p_Galaxy_Nexus_API_26" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-06-03T18:34:40.315Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Videos/Reminder-master" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\app\src\main\res\layout-xlarge-land" />
-      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\app\src\main\res\layout-xlarge" />
-      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\app\src\main\res\layout-small-land" />
-      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\app\src\main\res\layout-small" />
-      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\app\src\main\res\layout-normal-land" />
+      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\android\app\src\main\res\layout-normal-land" />
+      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\android\app" />
+      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\android\app\src" />
+      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\android\app\src\main\res\layout-xlarge-land" />
+      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\android\app\src\main\res\layout-xlarge" />
     </key>
     <key name="android.template.packageName">
+      <recent name="com.example.ecopunto" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.ecopunto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -156,6 +159,14 @@
       <option name="presentableId" value="Default" />
       <updated>1590227466655</updated>
     </task>
+    <task id="LOCAL-00001" summary="Last">
+      <created>1591218531981</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591218531981</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +213,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Last" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

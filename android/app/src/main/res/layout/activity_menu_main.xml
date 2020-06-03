@@ -59,7 +59,7 @@
             android:layout_marginTop="-120sp"
             android:background="@drawable/button4"
 
-            android:text="@string/settings"
+            android:text="Notification"
             android:textColor="#ffffff" />
 
     </LinearLayout>

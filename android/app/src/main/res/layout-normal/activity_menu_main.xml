@@ -54,7 +54,7 @@ tools:context=".MenuMain">
         android:layout_marginTop="405dp"
         android:background="@drawable/button4"
 
-        android:text="Settings"
+        android:text="Notification"
         android:textColor="#ffffff" />
 
 </RelativeLayout>

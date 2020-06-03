@@ -29,18 +29,9 @@
         </activity>
 
 
-        <activity android:name=".Settings" />
         <activity android:name=".Planner">
             <intent-filter>
                 <action android:name=".Planner" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity android:name=".AboutUs">
-            <intent-filter>
-                <action android:name=".AboutUa" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

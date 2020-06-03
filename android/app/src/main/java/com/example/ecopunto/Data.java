@@ -34,13 +34,11 @@ public class Data {
     private final FirebaseFirestore db;
 
     Data(FirebaseFirestore db) {
+
         this.db = db;
         trashes = new  Vector<Trash>();
     }
-    private void setup() {
 
-        FirebaseFirestore db = FirebaseFirestore.getInstance();
-    }
     public void getAllTrash(final Function<Trash,Boolean> addTrash  ) throws InterruptedException {
         // [START get_all_users]
         db.collection("state")

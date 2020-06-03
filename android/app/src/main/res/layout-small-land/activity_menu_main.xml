@@ -55,7 +55,7 @@
             android:layout_marginTop="28dp"
             android:background="@drawable/button4"
 
-            android:text="Settings"
+            android:text="Notification"
             android:textColor="#ffffff"
             android:textSize="7dp" />
 
