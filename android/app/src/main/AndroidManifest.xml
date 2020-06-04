@@ -11,15 +11,20 @@
 
     <application
         android:allowBackup="true"
+        android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:debuggable="true"
         android:theme="@style/AppTheme"
         tools:ignore="HardcodedDebugMode">
+        <activity android:name=".Main1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".RessetActivity">
             <intent-filter>
                 <action android:name=".AboutUa" />
@@ -27,8 +32,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".Planner">
             <intent-filter>
                 <action android:name=".Planner" />
@@ -37,7 +40,6 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="AlarmReceiver"/>
         <activity android:name=".Any">
             <intent-filter>
                 <action android:name=".Any" />
@@ -45,8 +47,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".Info">
             <intent-filter>
                 <action android:name=".Info" />
@@ -54,8 +54,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".MenuMain">
             <intent-filter>
                 <action android:name=".MenuMain" />
@@ -82,9 +80,10 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

@@ -81,20 +81,18 @@ public class MenuMain extends AppCompatActivity {
                 }
         );
         Button buttonAny;
-        buttonAny = findViewById(R.id.buttonany);
+        buttonAny =(Button) findViewById(R.id.buttonany);
+
         buttonAny.setOnClickListener(
-                new View.OnClickListener() {
-                    public void onClick(View v) {
-                        Intent intent = new Intent(".Any");
-                        startActivity(intent);
+                    new View.OnClickListener() {
+                        public void onClick(View v) {
+                            Intent denchik = new Intent(".Any");
+                            startActivity(denchik);
+                        }
 
-                    }
-
-                }
-        );
-
-
+                    });
     }
+
 
 
 

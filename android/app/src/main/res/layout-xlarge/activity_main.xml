@@ -63,7 +63,7 @@
             android:layout_width="180sp"
             android:layout_height="50sp"
             android:layout_marginTop="17dp"
-            android:background="@drawable/button2"
+            android:background="@drawable/button"
             android:text="@string/registration"
             android:textAlignment="center"
             android:textSize="22dp" />

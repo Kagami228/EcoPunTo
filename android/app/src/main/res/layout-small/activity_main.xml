@@ -62,7 +62,7 @@
             android:id="@+id/btn_registration"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:background="@drawable/button2"
+            android:background="@drawable/button"
             android:text="@string/registration"
             android:textAlignment="center"
             android:layout_marginTop="-31dp"

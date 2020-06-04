@@ -35,6 +35,7 @@
       <list>
         <option value="layoutResourceFile" />
         <option value="resourceFile" />
+        <option value="valueResourceFile" />
         <option value="Class" />
       </list>
     </option>
@@ -46,27 +47,27 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="4.65_720p_Galaxy_Nexus_API_26" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-06-03T18:34:40.315Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-06-04T10:04:52.377Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Videos/Reminder-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout-large" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\android\app\src\main\res\layout-normal-land" />
-      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\android\app" />
-      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\android\app\src" />
-      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\android\app\src\main\res\layout-xlarge-land" />
-      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\android\app\src\main\res\layout-xlarge" />
-    </key>
-    <key name="android.template.packageName">
+    <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.example.ecopunto" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\android\app\src\main\res\layout-large" />
+      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\android\app\src\main\res\layout-normal" />
+      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\android\app\src\main\res\drawable" />
+      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\android\app\src\main\res\layout" />
+      <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\android\app\src\main\java\com\example\ecopunto" />
+    </key>
+    <key name="android.template.packageName">
       <recent name="com.example.ecopunto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -74,6 +75,12 @@
       <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\app\src\main\java" />
       <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\app\src\main\res\drawable" />
       <recent name="C:\Users\007\AndroidStudioProjects\EcopunTo3\app\src\main\res\mipmap-hdpi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.ecopunto" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.ecopunto" />
     </key>
   </component>
   <component name="RunDashboard">
